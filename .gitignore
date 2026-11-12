@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+.DS_Store
+
+# Data: never commit; rebuild from the loader
+data/**
+!data/**/
+!data/**/.gitkeep
